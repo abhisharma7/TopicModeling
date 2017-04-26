@@ -1,5 +1,5 @@
 # Topic Modeling
-Topic Modeling using Scikit Learn (Latent Dirichlet Allocation) and Non Negative Matrix Factorization
+Topic Modeling using Latent Dirichlet Allocation and Non Negative Matrix Factorization
 
 ## Required:
 * Python 3.5
