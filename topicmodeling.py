@@ -15,7 +15,7 @@ def display_topics(model, feature_names, no_top_words):
         print("Topic:", (topic_idx))
         print(" ".join([feature_names[i]
         for i in topic.argsort()[:-no_top_words - 1:-1]]))
-    
+
 #  Data Set;
 dataset = fetch_20newsgroups(shuffle=True, random_state=1, remove=('headers', 'footers', 'quotes'))
 documents = dataset.data

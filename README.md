@@ -9,6 +9,9 @@ Topic Modeling using Scikit Learn (Latent Dirichlet Allocation) and Non Negative
 * python topicmodeling.py
 
 
+## Dataset
+* data file (20 Newsgroup Dataset)
+
 ## NMF Algorithm Output ( 5 Topic ):
 
 Topic: 0
