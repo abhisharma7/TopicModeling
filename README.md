@@ -32,19 +32,19 @@ Topic Modeling using Latent Dirichlet Allocation and Non Negative Matrix Factori
 ## LDA Algorithm Output ( 5 Topic ):
 
 ### Topic: 0
-* 10 00 space 20 new 15 25 12 11 14
+* people don think just god like know say time did
 
 ### Topic: 1
-* edu file use windows com program thanks drive like available
+* thanks use windows know does like drive mail card using
 
 ### Topic: 2
-* key use government chip public used encryption keys like new
+* mike radio tv hear jim article station com city chicago
 
 ### Topic: 3
-* people don just think like know time god good say
+* car game year team games good new like 00 sale
 
 ### Topic: 4
-* ax max b8f g9v a86 pl 145 1d9 0t 34u
+* bike edu soon deleted david stuff dod insurance road just
 
 ## Screenshots
 
