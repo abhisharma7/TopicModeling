@@ -52,10 +52,10 @@ model_nmf = NMF(n_components=num_topic, random_state=1, alpha=.1, l1_ratio=.5, i
 
 #  Latent Dirichlet Allocation Implementation
 #  http://scikit-learn.org/stable/modules/generated/sklearn.decomposition.LatentDirichletAllocation.html
-model_lda = LatentDirichletAllocation(n_topics=num_topic, max_iter=5, learning_method='online', learning_offset=50.,random_state=0).fit(tf)
+model_lda = LatentDirichletAllocation(n_topics=num_topic, max_iter=30, learning_method='online', learning_offset=50.,random_state=0).fit(tfidf)
 
 no_top_words = 10
 display_topics(model_nmf, tfidf_feature_names, no_top_words)
-display_topics(model_lda, tf_feature_names, no_top_words)
-data = pyLDAvis.sklearn.prepare(model_lda,tf,tf_vectorizer)
+display_topics(model_lda, tfidf_feature_names, no_top_words)
+data = pyLDAvis.sklearn.prepare(model_lda,tfidf,tfidf_vectorizer)
 pyLDAvis.show(data)
